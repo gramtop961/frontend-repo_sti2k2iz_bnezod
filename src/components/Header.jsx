@@ -1,5 +1,5 @@
 import React from 'react';
-import { Leaf, Flowchart } from 'lucide-react';
+import { Leaf, Link2 } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
         <div>
           <h1 className="text-lg font-semibold tracking-tight">EcoFlow LCA</h1>
           <p className="text-xs text-gray-500 -mt-0.5 flex items-center gap-1">
-            <Flowchart className="h-3.5 w-3.5" />
+            <Link2 className="h-3.5 w-3.5" />
             Model product life cycles as interactive flowcharts
           </p>
         </div>
